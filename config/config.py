@@ -17,11 +17,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "8964162"))
-API_HASH = getenv("API_HASH", "57fd71da68029890610ade3b62017472")
+API_ID = int(getenv("API_ID", "28119489"))
+API_HASH = getenv("API_HASH", "4b657c5fd03f6616d3903bde50165388")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5604293AGE1c_hHQZ_Lje5WSIm14IVRMtGwXdx7g")
+BOT_TOKEN = getenv("BOT_TOKEN", "6280324585:AAEEX9N_trUKbguQyeKeDv6Ylj3t0Q1Jn-w")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://coffic3:.mongob.net/coffemusic3?retryWrites=true&w=majority")
@@ -36,14 +36,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001646005687"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1490794836"))
 
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Coffe Music")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5297963487").split())
+    map(int, getenv("OWNER_ID", "5878485189").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -55,7 +55,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/K-Music777/Music",
+    "https://github.com/Moha091/Musici44",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
@@ -64,10 +64,10 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", None
+    "SUPPORT_CHANNEL", "https://t.me/yomy3sh3k")
 )  # Example:- https://t.me/TheYukki
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", None
+    "SUPPORT_GROUP", "https://t.me/m_07mn")
 )  # Example:- https://t.me/YukkiSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -99,7 +99,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", None)
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/MGJ_D")
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
@@ -137,7 +137,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "BABUfued0syCGbDiRqfT4z33CstceITZ6uLy6XEmLhjuck9wr99_e6ZSoFGkHjj4nkj1VD2hi46DxgUGby5VvL43rPhFqRPgo5hxcT2n_kuiV0VHuqdxSUQhIskVVsKQua_zON-K2SGOb8my7fhaHYOmv59f9bsRjxgQac1pBZEIOwEQUvIp_e-oJh3C_Aysue8yD6uAWSHeDG1AlGj9IaaLaAxt7cAUmj_ITnkrifqHknPYPt3tiRNjDT6m9O5HcesmoMpGxG16sa8n1yX6K2X9hmN7FIjYdI5cdOs1yVkyMShIHWg9fGfFnyFolD8EgwjPoDqyrzavq1Nq8O-ODwiXAAAAATTcIIYA")
+STRING1 = getenv("STRING_SESSION", "BAGtEcEAjIVoRXdPUZW-aYg3TSvPSVjhcY263UzMctUinwQ7_MKJgF3dbGOEIMUNV-2d15pPDzxok_4V1IBmYbAMel5DkP8bPmNv4meN4u1SvYd3F6myNetWid194qTNV7RFDDKT-5vZDjhfWM5sUFryL6CLq8kBKQtsmvKNYvRjC1UKTRrdj4EKkOMi7kmBGH7hWAfZEUOyus76R-95-s4qkqY-7La7L7MGMY9Yq7qBewwWHoCqt-6XdKugEOj5VN1d7xquGIHKq_DRVYTaRkyZsM9pDZtN6A7wHbs9bHf-ImnxcxZ67MGd1VMTSehpZ8wETAd6mv4whVeQo7LlJoClivlYJAAAAAFwAeSDAA-K2SGOb8my7fhaHYOmv59f9bsRjxgQac1pBZEIOwEQUvIp_e-oJh3C_Aysue8yD6uAWSHeDG1AlGj9IaaLaAxt7cAUmj_ITnkrifqHknPYPt3tiRNjDT6m9O5HcesmoMpGxG16sa8n1yX6K2X9hmN7FIjYdI5cdOs1yVkyMShIHWg9fGfFnyFolD8EgwjPoDqyrzavq1Nq8O-ODwiXAAAAATTcIIYA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -167,7 +167,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", None)
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/e78610ef2e973386047d1.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
